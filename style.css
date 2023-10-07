@@ -9,11 +9,14 @@ html, body{
     justify-content: center;
 }
 .todo-list{
-background: white;
+background: #E6E6E6;
 border-radius: 15px;
 height: 80%;
 width: 700px;
 padding: 40px 60px;
+display: flex;
+flex-direction: column;
+gap: 20px;
 }
 .todo-list__controls{
    display: grid;
@@ -49,6 +52,7 @@ padding: 40px 60px;
 }
 .todo-list__item_done{
     background: #EBFFED;
+    text-decoration: line-through;
 }
 .todo-list__item-text{
     flex-grow: 1;
